@@ -10,7 +10,7 @@ const fugaz = Fugaz_One({ subsets: ["latin"], weight: ['400']});
 
 
 export const metadata = {
-  title: "Date Piker",
+  title: "Broodl ⋅ App",
   description: "Nothing",
 };
 
