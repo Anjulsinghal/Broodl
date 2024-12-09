@@ -18,10 +18,10 @@ export default function CallToAction() {
   return (
     <div className='grid grid-cols-2 gap-4 w-fit mx-auto'>
         <Link href={'/Dashboard'}>
-          <Button text="Sign_up"/>
+          <Button text="Login"/>
         </Link>
         <Link href={'/Dashboard'}>
-          <Button text="Login" dark/>
+          <Button text="Sign_up" dark/>
         </Link>
         
       </div>
