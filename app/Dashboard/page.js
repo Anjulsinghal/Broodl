@@ -5,7 +5,7 @@ import Login from '@/components/Login';
 import Main from '@/components/Main';
 
 export const metadata = {
-    title: "Date Piker ⋅ Dashboard",
+    title: "Broodl ⋅ Dashboard",
 };  
 
 export default function Dashboard() {
