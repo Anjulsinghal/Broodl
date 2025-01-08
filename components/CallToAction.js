@@ -36,16 +36,14 @@ export default function CallToAction() {
     )
   }
   return (
-    <div className='grid grid-cols-3 gap-4 w-fit mx-auto'>
-      <Link href={'/Dashboard'}>
-        <Button text="Sign_up" />
-      </Link>
-      <Link href={'/Dashboard'}>
-        <Button text="Login" dark />
-      </Link>
-
-      <Button text="Demo-AC" clickHandler={handleDemoClick} light />
-
-    </div>
+    <div className='grid grid-cols-2 gap-4 w-fit mx-auto'>
+        <Link href={'/Dashboard'}>
+          <Button text="Login"/>
+        </Link>
+        <Link href={'/Dashboard'}>
+          <Button text="Sign_up" dark/>
+        </Link>
+        
+      </div>
   )
 }
