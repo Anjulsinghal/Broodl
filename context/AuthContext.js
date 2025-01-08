@@ -22,6 +22,9 @@ export function AuthPorvider({ children }){
     function login(email, password) {
         return signInWithEmailAndPassword(auth, email, password);
     }
+    function loginDemo(email, password) {
+        return signInWithEmailAndPassword(auth, email, password);
+    }
     function logout() {
         setUserDataObj(null);
         setCurrentUser(null);
@@ -66,6 +69,7 @@ export function AuthPorvider({ children }){
         setUserDataObj,
         signup,
         login,
+        loginDemo,
         logout,
         loading
     }
